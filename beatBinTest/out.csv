@@ -1,0 +1,14 @@
+target,data/justDrumsTest120.wav raw audio,data/justDrumsTest120.wav HPSS percussive seperation,data/justDrumsTest120Spleeter.mp3 raw audio,data/justDrumsTest120Spleeter.mp3 HPSS percussive seperation,data/songTest120.wav raw audio,data/songTest120.wav HPSS percussive seperation,data/songTest120Spleeter.mp3 raw audio,data/songTest120Spleeter.mp3 HPSS percussive seperation
+20,23.0,23.0,23.0,23.0,23.0,23.0,21.0,20.0
+4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+4,6.0,6.0,6.0,6.0,4.0,6.0,6.0,6.0
+4,5.0,4.0,5.0,4.0,4.0,4.0,4.0,5.0
+8,7.0,8.0,7.0,8.0,8.0,9.0,8.0,8.0
+4,2.0,2.0,2.0,2.0,2.0,1.0,2.0,4.0
+12,13.0,13.0,13.0,13.0,13.0,15.0,14.0,12.0
+4,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0
+8,9.0,9.0,9.0,9.0,7.0,9.0,9.0,9.0
+4,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0
+4,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0
+4,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+accuracy (%),71.25,73.75,71.25,73.75,76.25,68.75,78.75,83.75
