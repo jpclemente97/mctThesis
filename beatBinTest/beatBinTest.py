@@ -1,5 +1,4 @@
 import numpy as np
-#import madmom
 import librosa
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -49,10 +48,7 @@ import soundfile as sf
 target = [20, 4, 4, 4, 8, 4, 12, 4, 8, 4, 4, 4]
 df = pd.DataFrame({'target': [20, 4, 4, 4, 8, 4, 12, 4, 8, 4, 4, 4, 'accuracy (%)']})
 
-#files120 = ['data/songTest120NoSyncopation.wav', 'data/justDrumsTestNoSyncopation120.wav', 'data/songTest120NoSyncopationSpleeter.mp3', 'data/justDrumsTestNoSyncopation120Spleeter.mp3']
 files120 = ['data/justDrumsTest120.wav', 'data/justDrumsTest120Spleeter.mp3', 'data/songTest120.wav', 'data/songTest120Spleeter.mp3', ]
-files180 = ['data/drums150062.mp3']
-
 sr = 44100
 
 for track in files120:
@@ -60,7 +56,5 @@ for track in files120:
 	harmonic, percussive = librosa.effects.hpss(audio)
 	df[track + " raw audio"] = getBeatBins(audio)
 	df[track + " HPSS percussive seperation"] = getBeatBins(percussive)
-	#df[track + " raw audio + superflux"] = getBeatBinsSuperflux(audio)
-	#df[track + " HPSS percussive seperation + superflux"] = getBeatBinsSuperflux(percussive)
 
 df.to_csv('out.csv', encoding='utf-8', index=False)
