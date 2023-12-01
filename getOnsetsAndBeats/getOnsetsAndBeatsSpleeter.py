@@ -6,6 +6,7 @@ import librosa
 #import librosa.display
 import pandas as pd
 import os
+import soundfile as sf
 
 def getBeatInfo(fileName, signal):
 	onsets = librosa.onset.onset_detect(y=signal, sr=sr, hop_length=220, units='time')
